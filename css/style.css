@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+video {
+    width: 100%;
+    margin-top: 3200px;
+    
+}
+.first-whole-div {
+    width: 800px;
+    height: 370px;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+    transition: transform .2s; 
+    margin-top: 100px;
+}
+
+.first-whole-div:hover{
+    transform: scale(1.1);
+}
+
+.img1 {
+    width: 300px;
+    height: 370px;
+    border-radius: 15px 0 0 15px;
+}
+
+.img2 {
+    width: 300px;
+    height: 300px;
+}
+.txt-div {
+    margin-left: 50px;
+}
+
+
+h2{
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-decoration:underline;
+    margin-bottom: 20px;
+}
+.gif {
+    width: 400px;
+    height: 400px;
+}
+.second-whole-div {
+    display: flex;
+    width: 800px;
+    height: 370px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    transition: transform .2s;
+}
+
+.second-whole-div:hover {
+    transform: scale(1.1);
+}
+.txt2-div {
+    margin-top: 50px;
+}
+
+.new-games-list {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+margin-top: 100px;
+text-decoration: underline;
+}
+.game {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    transition: transform .2s;
+    border-radius: 50%;
+}
+
+.game:hover {
+    transform: scale(1.1);
+}
+
+.third-whole-div {
+    background-color: #121314;
+    width: 100%;
+}
+
+.logo {
+
+    width: 200px;
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-style: none;
+    transition:  .2s;
+}
+
+li:hover {
+    border-style: solid;
+}
+
+.console {
+    
+    width:300px;
+    height: 300px;
+    transition: transform .2s;
+}
+.console:hover{
+    transform: scale(1.1);
+}
+.fourth-whole-div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+footer {
+    width: 100%;
+    height:auto;
+    background-color: #00439C;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 20px;
+}
+
+.consoles-f-d {
+    display: flex;
+    justify-content: space-around;
+}
+
+.consoles-s-d {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+button {
+    width: 150px;
+    height: 50px;
+    transition: linear .5s;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: green;
+    
+}
+
+.console-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.reg-div {
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 10px;
+}
